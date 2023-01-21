@@ -23,7 +23,7 @@ public class Login extends JFrame implements ActionListener{
 	public Login() {
 		setTitle("로그인");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setLocation(1900, 100);
+		setLocation(300, 100);
 		setSize(240, 130);
 		setLayout(new BorderLayout());
 		

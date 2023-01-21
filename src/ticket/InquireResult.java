@@ -4,10 +4,10 @@ import java.awt.BorderLayout;
 
 import javax.swing.JFrame;
 
-public class Check extends JFrame{
+public class InquireResult extends JFrame{
 
-	public Check() {
-		setTitle("승차권확인");
+	public InquireResult() {
+		setTitle("조회결과");
 		//setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setLocation(300, 100);
 		setSize(240, 130);
@@ -17,7 +17,7 @@ public class Check extends JFrame{
 	}
 	
 	public static void main(String[] args) {
-		Reserve mm = new Reserve();
+		InquireResult mm = new InquireResult();
 	}
 
 		
